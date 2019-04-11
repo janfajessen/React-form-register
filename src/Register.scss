@@ -1,0 +1,23 @@
+.Register {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    background: bisque;
+    
+
+    input {
+        all: unset;
+        border-bottom: 1px solid grey;
+        padding: 1em;
+        margin: 1em;
+    }
+    
+    [type="submit"] {
+        border: 1px solid grey;
+        max-width: 100px;
+        border-radius: 5px;
+        background-color: white;
+    }
+}
